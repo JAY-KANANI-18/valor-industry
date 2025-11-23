@@ -173,7 +173,7 @@ export const HeroCarousel: React.FC<HeroCarouselProps> = ({
                   <div className="mt-8">
                     <a
                       href={slide.ctaHref}
-                      className="inline-flex items-center gap-3 rounded-full bg-yellow-500 px-6 py-3 font-semibold text-black shadow hover:shadow-lg transition-shadow"
+                      className="inline-flex items-center gap-3 rounded-full bg-primary px-6 py-3 font-semibold text-black shadow hover:shadow-lg transition-shadow"
                     >
                       {slide.ctaText}
                       <span aria-hidden>→</span>
@@ -236,3 +236,4 @@ export const HeroCarousel: React.FC<HeroCarouselProps> = ({
 };
 
 export default HeroCarousel;
+

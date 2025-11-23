@@ -30,10 +30,10 @@ export const TopBar = () => {
         <div className="relative text-sm bg-no-repeat box-border caret-transparent leading-[21px] min-h-[auto] min-w-[auto] text-center z-[2] md:text-base md:leading-6 md:min-h-0 md:min-w-0 md:text-start after:accent-auto after:bg-no-repeat after:box-border after:caret-transparent after:clear-both after:text-black after:table after:text-sm after:not-italic after:normal-nums after:font-normal after:tracking-[normal] after:leading-[21px] after:list-outside after:list-disc after:pointer-events-auto after:text-center after:indent-[0px] after:normal-case after:visible after:w-full after:border-separate after:font-sanchez after:md:text-base after:md:leading-6 after:md:text-start">
           <div className="text-sm bg-no-repeat box-border caret-transparent leading-[21px] text-center w-full px-[30px] md:text-base md:leading-6 md:text-start">
             <div className="text-[0px] items-center bg-no-repeat box-border caret-transparent hidden float-right leading-[120px] text-center ml-4 md:text-start">
-              <div className="items-start bg-yellow-500 box-border caret-transparent flex flex-col h-[50px] justify-center leading-[0px] max-w-full text-center w-[50px] px-[15px] md:text-start before:accent-auto before:self-end before:bg-white before:box-border before:caret-transparent before:text-black before:block before:text-[0px] before:not-italic before:normal-nums before:font-normal before:h-0.5 before:tracking-[normal] before:leading-[0px] before:list-outside before:list-disc before:pointer-events-auto before:text-center before:indent-[0px] before:normal-case before:visible before:w-full before:border-separate before:font-sanchez before:md:text-start after:accent-auto after:bg-white after:box-border after:caret-transparent after:text-black after:block after:text-[0px] after:not-italic after:normal-nums after:font-normal after:h-0.5 after:tracking-[normal] after:leading-[0px] after:list-outside after:list-disc after:pointer-events-auto after:text-center after:indent-[0px] after:normal-case after:visible after:w-6/12 after:border-separate after:font-sanchez after:md:text-start">
+              <div className="items-start bg-primary box-border caret-transparent flex flex-col h-[50px] justify-center leading-[0px] max-w-full text-center w-[50px] px-[15px] md:text-start before:accent-auto before:self-end before:bg-white before:box-border before:caret-transparent before:text-black before:block before:text-[0px] before:not-italic before:normal-nums before:font-normal before:h-0.5 before:tracking-[normal] before:leading-[0px] before:list-outside before:list-disc before:pointer-events-auto before:text-center before:indent-[0px] before:normal-case before:visible before:w-full before:border-separate before:font-sanchez before:md:text-start after:accent-auto after:bg-white after:box-border after:caret-transparent after:text-black after:block after:text-[0px] after:not-italic after:normal-nums after:font-normal after:h-0.5 after:tracking-[normal] after:leading-[0px] after:list-outside after:list-disc after:pointer-events-auto after:text-center after:indent-[0px] after:normal-case after:visible after:w-6/12 after:border-separate after:font-sanchez after:md:text-start">
                 <a
                   href="#"
-                  className="bg-white box-border caret-transparent block h-0.5 text-center w-full my-[3px] md:text-start hover:text-yellow-500 hover:border-yellow-500"
+                  className="bg-white box-border caret-transparent block h-0.5 text-center w-full my-[3px] md:text-start hover:text-primary hover:border-primary"
                 ></a>
               </div>
             </div>
@@ -41,11 +41,11 @@ export const TopBar = () => {
               <span className="text-sm bg-no-repeat box-border caret-transparent text-center md:text-base md:text-start">
                 <a
                   href="/"
-                  className="text-sm bg-no-repeat box-border caret-transparent text-center md:text-base md:text-start hover:text-yellow-500 hover:border-yellow-500"
+                  className="text-sm bg-no-repeat box-border caret-transparent text-center md:text-base md:text-start hover:text-primary hover:border-primary"
                 >
                   <img
                     src="/logo/Bg White Main Logos.png "
-                    alt="Berlin"
+                    alt="Logo"
                     className="text-sm bg-no-repeat box-border caret-transparent h-auto max-w-full text-center mx-auto md:text-base md:h-[120px] md:text-start md:mx-0"
                   />
                 </a>
@@ -58,7 +58,7 @@ export const TopBar = () => {
                     <a
                       href="#"
                       title="414-214-0362"
-                      className="text-white bg-yellow-500 box-border caret-transparent flex basis-full flex-row-reverse grow shrink-0 h-[50px] justify-center leading-[50px] min-h-[auto] min-w-[auto] text-center overflow-hidden px-6 rounded-[25px] md:basis-auto md:grow-0 md:shrink md:min-h-0 md:min-w-0 md:text-start hover:shadow-[rgba(0,0,0,0.2)_0px_5px_20px_0px]"
+                      className="text-white bg-primary box-border caret-transparent flex basis-full flex-row-reverse grow shrink-0 h-[50px] justify-center leading-[50px] min-h-[auto] min-w-[auto] text-center overflow-hidden px-6 rounded-[25px] md:basis-auto md:grow-0 md:shrink md:min-h-0 md:min-w-0 md:text-start hover:shadow-[rgba(0,0,0,0.2)_0px_5px_20px_0px]"
                     >
                       <span className="font-bold bg-no-repeat box-border caret-transparent block text-center text-nowrap font-red_hat_text md:text-start">
                         414-214-0362
@@ -99,7 +99,7 @@ export const TopBar = () => {
                                 after:md:top-2/4
                                 after:md:w-[30px] after:md:h-[30px]
                                 after:md:mt-[-15px]
-                                after:md:bg-yellow-500
+                                after:md:bg-primary
                                 after:md:rounded-[60%]
                                 after:md:z-[-1]
                                 after:md:pointer-events-auto
@@ -109,7 +109,7 @@ export const TopBar = () => {
                                 after:md:list-outside after:md:list-none
                                 after:md:no-underline after:md:indent-[0px] after:md:normal-case
                                 after:md:font-sanchez`
-                              : "text-black/70 hover:text-black",
+                              : "text-foreground/70 hover:text-black",
                           ].join(" ")}
                         >
                           {item.label}
@@ -153,7 +153,7 @@ export const TopBar = () => {
         before:md:translate-y-[-25px]
         before:md:max-h-[50px] before:md:min-h-[50px]
         before:md:scale-x-0 before:md:opacity-0
-        before:md:bg-yellow-500
+        before:md:bg-primary
         before:md:z-[-1]
         before:md:rounded-t-[5px]
         before:md:pointer-events-auto
@@ -171,7 +171,7 @@ export const TopBar = () => {
         after:md:top-2/4
         after:md:w-[30px] after:md:h-[30px]
         after:md:mt-[-15px]
-        after:md:bg-yellow-500
+        after:md:bg-primary
         after:md:rounded-[50%]
         after:md:z-[-1]
         after:md:pointer-events-auto
@@ -190,7 +190,7 @@ export const TopBar = () => {
         <li className="relative text-[13.5px] bg-no-repeat box-border caret-transparent block leading-[21px] pointer-events-auto text-center z-auto md:text-[13.995px] md:leading-6 md:pointer-events-none md:text-start md:z-[4]">
           <a
             href="/"
-            className="relative text-black text-[13.5px] bg-no-repeat box-border caret-transparent block leading-[14.85px] pointer-events-auto text-center px-[27px] py-[13.5px] md:text-black/70 md:text-[13.995px] md:leading-6 md:pointer-events-none md:text-start md:px-[25.008px] md:py-[4.8px] after:md:accent-auto after:md:bg-yellow-500 after:md:bg-no-repeat after:md:box-border after:md:caret-transparent after:md:text-black/70 after:md:block after:md:text-[13.995px] after:md:not-italic after:md:normal-nums after:md:font-normal after:md:h-0.5 after:md:tracking-[normal] after:md:leading-6 after:md:list-outside after:md:list-none after:md:pointer-events-none after:md:absolute after:md:text-start after:md:no-underline after:md:indent-[0px] after:md:normal-case after:md:origin-[100%_50%] after:md:visible after:md:w-5 after:md:border-separate after:md:scale-x-0 after:md:left-[25.008px] after:md:bottom-0 after:md:font-sanchez hover:text-neutral-900 hover:border-black"
+            className="relative text-black text-[13.5px] bg-no-repeat box-border caret-transparent block leading-[14.85px] pointer-events-auto text-center px-[27px] py-[13.5px] md:text-foreground/70 md:text-[13.995px] md:leading-6 md:pointer-events-none md:text-start md:px-[25.008px] md:py-[4.8px] after:md:accent-auto after:md:bg-primary after:md:bg-no-repeat after:md:box-border after:md:caret-transparent after:md:text-foreground/70 after:md:block after:md:text-[13.995px] after:md:not-italic after:md:normal-nums after:md:font-normal after:md:h-0.5 after:md:tracking-[normal] after:md:leading-6 after:md:list-outside after:md:list-none after:md:pointer-events-none after:md:absolute after:md:text-start after:md:no-underline after:md:indent-[0px] after:md:normal-case after:md:origin-[100%_50%] after:md:visible after:md:w-5 after:md:border-separate after:md:scale-x-0 after:md:left-[25.008px] after:md:bottom-0 after:md:font-sanchez hover:text-neutral-900 hover:border-black"
           >
             Home 01
           </a>
@@ -198,7 +198,7 @@ export const TopBar = () => {
         <li className="relative text-[13.5px] bg-no-repeat box-border caret-transparent block leading-[21px] pointer-events-auto text-center z-auto md:text-[13.995px] md:leading-6 md:pointer-events-none md:text-start md:z-[4]">
           <a
             href="/"
-            className="relative text-black text-[13.5px] bg-no-repeat box-border caret-transparent block leading-[14.85px] pointer-events-auto text-center px-[27px] py-[13.5px] md:text-black/70 md:text-[13.995px] md:leading-6 md:pointer-events-none md:text-start md:px-[25.008px] md:py-[4.8px] after:md:accent-auto after:md:bg-yellow-500 after:md:bg-no-repeat after:md:box-border after:md:caret-transparent after:md:text-black/70 after:md:block after:md:text-[13.995px] after:md:not-italic after:md:normal-nums after:md:font-normal after:md:h-0.5 after:md:tracking-[normal] after:md:leading-6 after:md:list-outside after:md:list-none after:md:pointer-events-none after:md:absolute after:md:text-start after:md:no-underline after:md:indent-[0px] after:md:normal-case after:md:origin-[100%_50%] after:md:visible after:md:w-5 after:md:border-separate after:md:scale-x-0 after:md:left-[25.008px] after:md:bottom-0 after:md:font-sanchez hover:text-neutral-900 hover:border-black"
+            className="relative text-black text-[13.5px] bg-no-repeat box-border caret-transparent block leading-[14.85px] pointer-events-auto text-center px-[27px] py-[13.5px] md:text-foreground/70 md:text-[13.995px] md:leading-6 md:pointer-events-none md:text-start md:px-[25.008px] md:py-[4.8px] after:md:accent-auto after:md:bg-primary after:md:bg-no-repeat after:md:box-border after:md:caret-transparent after:md:text-foreground/70 after:md:block after:md:text-[13.995px] after:md:not-italic after:md:normal-nums after:md:font-normal after:md:h-0.5 after:md:tracking-[normal] after:md:leading-6 after:md:list-outside after:md:list-none after:md:pointer-events-none after:md:absolute after:md:text-start after:md:no-underline after:md:indent-[0px] after:md:normal-case after:md:origin-[100%_50%] after:md:visible after:md:w-5 after:md:border-separate after:md:scale-x-0 after:md:left-[25.008px] after:md:bottom-0 after:md:font-sanchez hover:text-neutral-900 hover:border-black"
           >
             Home 02
           </a>
@@ -206,7 +206,7 @@ export const TopBar = () => {
         <li className="relative text-[13.5px] bg-no-repeat box-border caret-transparent block leading-[21px] pointer-events-auto text-center z-auto md:text-[13.995px] md:leading-6 md:pointer-events-none md:text-start md:z-[4]">
           <a
             href="/"
-            className="relative text-black text-[13.5px] font-semibold bg-no-repeat box-border caret-transparent block leading-[14.85px] pointer-events-auto text-center px-[27px] py-[13.5px] md:text-black/70 md:text-[13.995px] md:font-normal md:leading-6 md:pointer-events-none md:text-start md:px-[25.008px] md:py-[4.8px] after:md:accent-auto after:md:bg-yellow-500 after:md:bg-no-repeat after:md:box-border after:md:caret-transparent after:md:text-black/70 after:md:block after:md:text-[13.995px] after:md:not-italic after:md:normal-nums after:md:font-normal after:md:h-0.5 after:md:tracking-[normal] after:md:leading-6 after:md:list-outside after:md:list-none after:md:pointer-events-none after:md:absolute after:md:text-start after:md:no-underline after:md:indent-[0px] after:md:normal-case after:md:origin-[100%_50%] after:md:visible after:md:w-5 after:md:border-separate after:md:left-[25.008px] after:md:bottom-0 after:md:font-sanchez hover:text-neutral-900 hover:border-black"
+            className="relative text-black text-[13.5px] font-semibold bg-no-repeat box-border caret-transparent block leading-[14.85px] pointer-events-auto text-center px-[27px] py-[13.5px] md:text-foreground/70 md:text-[13.995px] md:font-normal md:leading-6 md:pointer-events-none md:text-start md:px-[25.008px] md:py-[4.8px] after:md:accent-auto after:md:bg-primary after:md:bg-no-repeat after:md:box-border after:md:caret-transparent after:md:text-foreground/70 after:md:block after:md:text-[13.995px] after:md:not-italic after:md:normal-nums after:md:font-normal after:md:h-0.5 after:md:tracking-[normal] after:md:leading-6 after:md:list-outside after:md:list-none after:md:pointer-events-none after:md:absolute after:md:text-start after:md:no-underline after:md:indent-[0px] after:md:normal-case after:md:origin-[100%_50%] after:md:visible after:md:w-5 after:md:border-separate after:md:left-[25.008px] after:md:bottom-0 after:md:font-sanchez hover:text-neutral-900 hover:border-black"
           >
             Home 03
           </a>
@@ -215,3 +215,4 @@ export const TopBar = () => {
     </li>
   </ul>
 </nav>;
+

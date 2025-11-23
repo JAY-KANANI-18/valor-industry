@@ -9,7 +9,7 @@ export const FooterLogo = () => {
             <a
               href="/"
               title="Logo"
-              className="text-sm bg-no-repeat box-border caret-transparent block leading-[0px] md:text-base hover:text-yellow-500 hover:border-yellow-500"
+              className="text-sm bg-no-repeat box-border caret-transparent block leading-[0px] md:text-base hover:text-primary hover:border-primary"
             >
               <img
                 src="/logo/Bg White Main Logo.png"
@@ -25,3 +25,4 @@ export const FooterLogo = () => {
     </div>
   );
 };
+
