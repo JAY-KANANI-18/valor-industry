@@ -145,7 +145,10 @@
 @layer base {
   :root {
     --background: 0 0% 100%; /* white */
-    --foreground: 0 0% 18%; /* #2D2D2D */
+    --foreground: 0 0% 0%; /* #000000 */
+
+    /* --foreground: 0 0% 18%; */
+     /* #2D2D2D */
     --card: 0 0% 100%;
     --card-foreground: 0 0% 18%;
     --popover: 0 0% 100%;

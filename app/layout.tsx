@@ -5,10 +5,10 @@ import "../src/globals.css";
 import { ScrollToTop } from "../src/components/ScrollToTop";
 
 export const metadata: Metadata = {
-  title: "Amwerk Berlin",
+  title: "Bharat Products",
   description: "Professional services website",
   icons: {
-    icon: "/White BG Favicon.png",
+    icon: "/Final Logo/SVG/White BG Favicon.svg",
     apple: "/Final Logo/SVG/Bharat PRoduct Final Logo.svg",
   },
 };
