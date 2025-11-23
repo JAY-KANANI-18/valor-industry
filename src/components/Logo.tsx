@@ -8,9 +8,9 @@ export type LogoProps = {
 export const Logo = (props: LogoProps) => {
   const {
     variant,
-    href = "https://amwerk.bold-themes.com/berlin/",
-    imageUrl = "https://c.animaapp.com/mhypf3xrXgMUxE/assets/amwerk-logo-gold-bronze.png",
-    alt = "Berlin",
+    href = "/",
+    imageUrl = "/logo/Bg White Main Logo.png",
+    alt = "Logo",
   } = props;
 
   if (variant === "variant1") {

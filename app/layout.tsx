@@ -5,6 +5,9 @@ import '../src/globals.css'
 export const metadata: Metadata = {
   title: 'Amwerk Berlin',
   description: 'Professional services website',
+  icons: {
+    icon: '/White BG Favicon.png',
+  },
 }
 
 export default function RootLayout({
